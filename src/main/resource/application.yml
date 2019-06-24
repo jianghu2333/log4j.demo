@@ -1,0 +1,11 @@
+server:
+  port: 8089
+logging:
+  level:
+    root: info
+    org:
+      springframework:
+        web: debug
+      hibernate: error
+  file: d:\\springboot3\\log\\demo2.log
+#logging.path=D:\\demo1
